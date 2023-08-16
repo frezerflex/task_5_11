@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('https://main-cdn.sbermegamarket.ru/hlr-system/117/861/078/898/020/600004547198b0.jpeg') bottom no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    color: yellow;
+    font-size: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
