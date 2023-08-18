@@ -47,11 +47,28 @@ article h2 {
     color: rgb(134,142,150);
     margin-bottom: 5px;
 }
+
+article:nth-child(even){
+    background-color: chartreuse;
+}
+
+
+
 article img {
     width: 100%;
     height: 400px;
     object-fit: cover;
 
+} 
+
+.New::before {
+    content: 'New';
+    color: red;
+    font-style: italic;
+    vertical-align: middle;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 10px;
 }
 
 footer {
